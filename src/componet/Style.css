@@ -1,0 +1,586 @@
+.home span {
+  padding: 10px;
+  margin-top: 8px;
+}
+.home button {
+  margin-top: 2px;
+}
+#icon {
+  color: black;
+}
+.text-white {
+  margin-left: 110%;
+}
+.carousel img {
+  width: 100%;
+  height: 300px;
+}
+.cardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5px;
+  }
+.card {
+  width: 220px;
+  height: 250px;
+  margin-bottom: 8px;
+}
+.card-head {
+  background-color: peru;
+  text-align: center;
+}
+.images {
+  width: 50px;
+  height: 50px;
+  margin-top: 7px;
+  color: white;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 20px;
+}
+.icons {
+  color: white;
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.about {
+  text-align: center;
+}
+.about-content {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  justify-content: space-around;
+  place-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+/* .left-content {
+  margin-left: 0px;
+} */
+.d-1 {
+  width: 350px;
+  height: 250px;
+  background-color: peru;
+}
+.d-2 {
+  width: 350px;
+  height: 210px;
+  margin-left: 40px;
+  margin-top: -225px;
+  background-size: cover;
+  background-image: url("https://marketplace.canva.com/EAFEUwUPzkY/1/0/800w/canva-black-modern-vlogger-youtube-banner-jg6uj-nktZg.jpg");
+}
+.doctor h2 {
+  color: peru;
+}
+.doctor button {
+  margin-left: 100px;
+}
+.word p {
+  word-wrap: break-word;
+}
+.choose-title {
+  text-align: center;
+}
+
+.choose-us {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  background-color: olive;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: 1px solid;
+}
+.choose-content {
+  height: 250px;
+  width: 230px;
+  background-color: white;
+  border: none;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: 13px;
+  padding: 16px;
+  display: inline-block;
+  text-align: center;
+}
+.choose-content h5 {
+  font-size: 13px;
+  color: darkgoldenrod;
+}
+.healing-text {
+  text-align: center;
+}
+
+.healing-1 {
+  width: 300px;
+  height: 350px;
+  border: none;
+  margin-left: 10px;
+  background-color: coral;
+}
+/* .healing-1 div a{
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+   
+} */
+.text {
+  margin-top: 20px;
+  text-align: center;
+}
+.text a {
+  color: white;
+}
+.healing-2 img {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* rohmbus */
+
+.program-container {
+ 
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px;
+}
+.program-container h4{
+    text-align: center;
+}
+.programs {
+  font-family: sans-serif;
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  /* height: 1200px; */
+}
+.content {
+  margin-left: 50px;
+}
+.d1 {
+  width: 120px;
+  height: 120px;
+  border: 2px solid;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.d2 {
+  width: 120px;
+  height: 120px;
+  border: 2px solid;
+  text-align: center;
+  transform: rotate(45deg);
+  position: relative;
+  background-color: peru;
+  left: -40px;
+}
+.d2 img {
+  width: 50px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 15px;
+  transform: rotate(-45deg);
+}
+.d2 h4 {
+  font-size: 10px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  margin-left: 50px;
+}
+
+
+.image-container img {
+  object-fit: cover;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 25%;
+  height: 80px; /* Adjust the height for the wave effect */
+  background-image: url("https://img.freepik.com/free-vector/branding-identity-corporate-wellness-vector-logo-design_460848-13938.jpg?size=626&ext=jpg"); /* Set your logo as the background image */
+  background-size: cover; /* Adjust the background image size as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%; /* Create a single wave shape */
+}
+
+.healingStory {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: darksalmon;
+  border: none;
+  padding: 10px;
+}
+.healingStory h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.healing-content {
+  border: none;
+  display: flex;
+  margin-left: 5%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.healing-contents {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+.healingStory .healing-profiles {
+  margin-left: 450px;
+}
+.healing-profiles img {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* book-appointment */
+.book-apm {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 1px solid goldenrod;
+}
+.book-appointment {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  background-color: darkgoldenrod;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.book-appointment-form {
+  background-color: white;
+  padding: 10px;
+}
+.form-content-grid {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  padding: 10px;
+}
+.form-radio {
+  border: 1px solid goldenrod;
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+}
+.form-text {
+  display: flex;
+  justify-content: space-around;
+}
+.Book-Appointment-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Book-Appointment-button button {
+  border: 1px solid goldenrod;
+  border-radius: 15px;
+  background-color: darkgoldenrod;
+  width: 40%;
+}
+.book-appointment-left-content {
+  padding: 10px;
+  border: none;
+}
+.book-appointment-left-content-img img {
+  width: 100%;
+  height: 150px;
+  border: none;
+}
+.book-appointment-contact {
+  margin-top: 180px;
+  padding: 15px;
+}
+.book-appointment-contact div {
+  padding: 10px;
+}
+
+/* Review */
+.review {
+  width: 100%;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  background-color: bisque;
+  padding: 25px;
+  position: relative;
+  border-bottom: 1px solid goldenrod;
+}
+.review h4 {
+  text-align: center;
+}
+.review1,
+.review2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: darksalmon;
+}
+.review1 {
+  top: 50px;
+  right: 100px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.review2 {
+  left: 50px;
+  top: 290px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.review-content {
+  position: absolute;
+  width: 80%;
+  height: 285px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  background-color: darkgoldenrod;
+  top: 90px;
+  left: 100px;
+  border: 1px solid white;
+  border-radius: 15px;
+ 
+}
+.review-content div{
+    color: white;
+}
+.review-img img {
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 300px;
+  width: 250px;
+  top: 40px;
+  left: 130px;
+}
+
+/* footer css*/
+.footer{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: antiquewhite;
+}
+.footer .footer-img img{
+    margin-left: 260px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+}
+.footer .footer-content{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-left: 30px;
+}
+.footer-map{
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.test{
+    width: 60%;
+    height: 200px;
+    margin-left: 50px;
+    overflow: scroll;
+}
+.footer-bottom{
+    margin-top: -190px;
+    
+}
+.footer-bottom span{
+   margin-left: 80px;
+   
+}
+@media screen and (max-width: 600px) {
+  .home span {
+    padding: 10px;
+    margin-top: 7px;
+  }
+  .doctor h2 {
+    margin-top: 25px;
+  }
+  .d-2 {
+    margin-top: 8px;
+  }
+  .healing-content {
+    display: block;
+  }
+  .healing-contents {
+    width: 80%;
+  }
+  .about-content {
+    grid-template-columns: 12fr;
+  }
+  .choose-us {
+    height: 1100px;
+  }
+  .healingStory .healing-profiles {
+    margin-left: 100px;
+    display: flex;
+  }
+  .programs {
+    display: block;
+  }
+  .content {
+    margin-left: 35%;
+    margin-bottom: 20%;
+  }
+  .d1 {
+    width: 150px;
+    height: 150px;
+  }
+  .d2 {
+    width: 150px;
+    height: 150px;
+
+    left: -40px;
+  }
+  .d-2 {
+    margin-top: -225px;
+    margin-right: 5px;
+  }
+  .d-1 {
+    margin-left: 2px;
+  }
+  .doctor {
+    padding: 10px;
+  }
+  .book-appointment {
+    display: block;
+  }
+  .review{
+    height: 600px;
+  }
+  .review1 {
+    top: 120px;
+    right: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  .review2 {
+    left: 20px;
+    top: 400px;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  .review-content {
+    position: absolute;
+    width: 80%;
+    height: 300px;
+   
+    background-color: darkgoldenrod;
+    top: 170px;
+    left: 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    overflow: scroll;
+  }
+  /* .review-content div{
+    color: white;
+} */
+.review-img img {
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 300px;
+  width: 110px;
+  top: 160px;
+  left: 70px;
+}
+.contents{
+    font-size: 15px;
+
+   
+}
+.footer{
+   
+    height: 1200px;
+    margin-bottom: 20px;
+   
+}
+.footer .footer-img img{
+    margin-left: 40px;
+    margin-top: 20px;
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+}
+.footer .footer-content{
+   display: block;
+    margin-left: 30px;
+}
+.footer-map{
+    /* width: 400px;
+    height: 500px; */
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.test{
+    height: 200px;
+    margin-left: 20px;
+    overflow: scroll;
+}
+.footer-bottom{
+    margin-top: -5px;
+    
+}
+.footer-bottom span{
+   margin-left: 30px;
+   
+}
+}
